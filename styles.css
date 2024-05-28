@@ -1,0 +1,70 @@
+body {
+    background: url(./assets/images/background-pattern-desktop.svg) no-repeat;
+    font-family: worksans;
+    background-color: #FBE7F3;
+}
+
+.title-icon, .faq-header {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.faq-header {
+    font-size: 3.5rem;
+    margin-left: 15px;
+}
+
+.faq-accordion {
+    width: 500px;
+    background-color: white;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 5px 35px 25px 35px;
+    box-shadow: 0 0 30px rgb(0,0,0,0.2);
+}
+
+.hidden {
+    display: none;
+}
+
+.plus-img, .minus-img {
+    cursor: pointer;
+    float: right;
+    margin-top: 15px;
+}
+
+.question {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 85%;
+}
+
+.question:active {
+    color: rgb(173,40,235);
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+.answer {
+    color:dimgray;
+    line-height: 1.5rem;
+    margin-top: 7px;
+}
+
+hr {
+    opacity: 0.05;
+}
+
+.attribution {
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: worksans;
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+    font-weight: 300 1000;
+}
