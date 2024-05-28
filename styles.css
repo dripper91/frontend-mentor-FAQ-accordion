@@ -1,5 +1,6 @@
 body {
     background: url(./assets/images/background-pattern-desktop.svg) no-repeat;
+    background-size: contain;
     font-family: worksans;
     background-color: #FBE7F3;
 }
